@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="relative w-full flex items-center justify-center" style={{ zIndex: 10 }}>
           <div className="flex flex-col items-center justify-center w-full px-8" style={{ maxWidth: "700px" }}>
-            
+
             <h1
               className="text-white text-center mb-14 "
               style={{
@@ -104,7 +104,6 @@ export default function Home() {
     );
   }
 
-  // ───────────────────────── CODE PAGE ─────────────────────────
   return (
     <main
       className="h-screen w-screen flex items-center justify-center relative overflow-hidden"
@@ -189,12 +188,13 @@ export default function Home() {
               ← Back
             </button>
 
-            <button className="flex-[2] py-4 rounded-xl bg-white text-black font-semibold">
+            <Link className="flex-[2] py-4 rounded-xl bg-white text-black font-semibold text-center" href="/third_page">
+
               Join Tournament
-            </button>
+            </Link>
           </div>
         </div>
       </div>
-    </main>
+    </main >
   );
 }
